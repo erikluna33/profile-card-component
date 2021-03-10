@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #1BA1AD;
+    background-image: url('images/bg-pattern-top.svg'), url('images/bg-pattern-bottom.svg');
+    background-position: top right, bottom left;
+    font-family: 'Kumbh Sans', 'sans-serif';
+}
+
+@media only screen and (min-width: 375px) {
+    .main-profile-card{
+        /* outline: red dotted; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 330px;
+        background-color: #ffffff;
+        margin: 200px auto;
+        min-height: 385px;
+        border-radius: 20px;
+        box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, black);
+    }
+    .main-profile-card .profile-pattern{
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        width: 330px;
+    }
+
+    .main-profile-card .profile-picture{
+        border-radius: 50px;
+        border: 5px solid #ffffff;
+        position: relative;
+        bottom: 50px;
+    }
+    .name-age{
+        /* outline: red dotted; */
+        width: 50%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .name-age p{
+        color: #918F91;
+    }
+
+    .location{
+        margin-top: 10px;
+        color: #918F91;
+
+    }
+
+    hr{
+        width: 100%;
+        margin-top: 10px;
+        height: 20px;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+    }
+
+    .stats{
+        /* outline: red dotted; */
+        margin-top: 15px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .stats-footer{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 5px;
+        color: #918F91;
+        font-size: 10px;
+    }
+}
+
+@media only screen and (min-width: 414px) {
+    .main-profile-card{
+        /* outline: red dotted; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 330px;
+        background-color: #ffffff;
+        margin: 200px auto;
+        min-height: 385px;
+        border-radius: 20px;
+        box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, black);
+    }
+    .main-profile-card .profile-pattern{
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        width: 330px;
+    }
+
+    .main-profile-card .profile-picture{
+        border-radius: 50px;
+        border: 5px solid #ffffff;
+        position: relative;
+        bottom: 50px;
+    }
+    .name-age{
+        /* outline: red dotted; */
+        width: 50%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .name-age p{
+        color: #918F91;
+    }
+
+    .location{
+        margin-top: 10px;
+        color: #918F91;
+
+    }
+
+    hr{
+        width: 100%;
+        margin-top: 10px;
+        height: 20px;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+    }
+
+    .stats{
+        /* outline: red dotted; */
+        margin-top: 15px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .stats-footer{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 5px;
+        color: #918F91;
+        font-size: 10px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .main-profile-card{
+        /* outline: red dotted; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 330px;
+        background-color: #ffffff;
+        margin: 200px auto;
+        min-height: 385px;
+        border-radius: 20px;
+        cursor: pointer;
+        /* box-shadow: 12px 12px 2px 1px rgba(27, 27, 32, 0.445); */
+    }
+    .main-profile-card .profile-pattern{
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        width: 330px;
+    }
+
+    .main-profile-card .profile-picture{
+        border-radius: 50px;
+        border: 5px solid #ffffff;
+        position: relative;
+        bottom: 50px;
+    }
+    .name-age{
+        /* outline: red dotted; */
+        width: 50%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .name-age p{
+        color: #918F91;
+    }
+
+    .location{
+        margin-top: 10px;
+        color: #918F91;
+
+    }
+
+    hr{
+        width: 100%;
+        margin-top: 10px;
+        height: 20px;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+    }
+
+    .stats{
+        /* outline: red dotted; */
+        margin-top: 15px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .stats-footer{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 5px;
+        color: #918F91;
+        font-size: 10px;
+    }
+
+    .attribution{
+        text-align: center;
+    }
+}
